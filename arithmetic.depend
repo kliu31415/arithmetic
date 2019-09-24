@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1567919204 source:c:\program files (x86)\codeblocks\cbprojects\arithmetic\sdl_base.cpp
+	"sdl_base.h"
+	"fundamentals.h"
+	<sstream>
+	<cstdint>
+	<cstdlib>
+	<ctime>
+	<cmath>
+	<vector>
+	<fstream>
+	<map>
+	<queue>
+	<utility>
+	<chrono>
+	<cstdio>
+	<cmath>
+	<thread>
+	<algorithm>
+	<random>
+	<mutex>
+	<iostream>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+
+1546633928 c:\program files (x86)\codeblocks\cbprojects\arithmetic\sdl_base.h
+	<string>
+	<vector>
+	<sstream>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+
+1567969197 source:c:\program files (x86)\codeblocks\cbprojects\arithmetic\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	"sdl_base.h"
+	"fundamentals.h"
+
+1546540304 c:\program files (x86)\codeblocks\cbprojects\arithmetic\fundamentals.h
+	<iostream>
+	<cassert>
+	<utility>
+	<string>
+	"sdl_base.h"
+
+1546834318 source:c:\program files (x86)\codeblocks\cbprojects\arithmetic\fundamentals.cpp
+	"fundamentals.h"
+	"sdl_base.h"
+	<string>
+	<cstdio>
+	<chrono>
+	<random>
+	<cmath>
+	<mutex>
+
+1546904340 source:c:\program files (x86)\codeblocks\cbprojects\arithmetic\sdl_graphics.cpp
+	"sdl_graphics.h"
+	"sdl_base.h"
+	"fundamentals.h"
+	<cmath>
+
+1546910596 c:\program files (x86)\codeblocks\cbprojects\arithmetic\sdl_graphics.h
+	<string>
+	<functional>
+	<vector>
+	<cstddef>
+	<SDL2/SDL.h>
+
