@@ -11,7 +11,7 @@ vector<int> gen_values(int minn, int maxn, int cnt)
     for(int i=0; i<cnt; i++)
     {
         int to_add = randz(minn, maxn) * randsign();
-        while(sum + to_add < 0)
+        while(sum + to_add <= 0)
             to_add = randz(minn, maxn) * randsign();
         sum += to_add;
         res.push_back(to_add);
